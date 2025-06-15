@@ -1,0 +1,5 @@
+body        { font-family: 'Segoe UI', sans-serif; background:#f9f5ff; color:#222; }
+nav a       { margin-right:1rem; text-decoration:none; }
+h1          { color:#991B1B; text-align:center; }
+.photo-wrap { display:flex; flex-direction:column; align-items:center; margin:2rem 0; }
+.caption    { font-style:italic; }
