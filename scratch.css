@@ -1,5 +1,13 @@
-body        { font-family: 'Segoe UI', sans-serif; background:#f9f5ff; color:#222; }
-nav a       { margin-right:1rem; text-decoration:none; }
-h1          { color:#991B1B; text-align:center; }
+/* ───── Global Styles ───── */
+body        { font-family:'Segoe UI',sans-serif; background:#f9f5ff; color:#222; line-height:1.4; }
+nav a       { margin-right:1rem; text-decoration:none; font-weight:600; }
+h1          { color:#991B1B; text-align:center; margin-top:2rem; }
+h2          { color:#333; margin-top:2.5rem; text-align:center; }
+
+/* ───── Photo Gallery ───── */
 .photo-wrap { display:flex; flex-direction:column; align-items:center; margin:2rem 0; }
-.caption    { font-style:italic; }
+.caption    { font-style:italic; color:#555; }
+
+/* ───── Tableau Viz Box ───── */
+.viz-wrap      { max-width:900px; margin:2rem auto; border:2px solid #991B1B22; border-radius:8px; padding:1rem; }
+.viz-caption   { font-size:.9rem; text-align:center; margin-top:.5rem; color:#555; }
