@@ -1,3 +1,6 @@
+/* debug */
+body { outline: 5px solid hotpink !important; }
+
 /* ───── Global Styles ───── */
 body        { font-family:'Segoe UI',sans-serif; background:#f9f5ff; color:#222; line-height:1.4; }
 nav a       { margin-right:1rem; text-decoration:none; font-weight:600; }
@@ -11,3 +14,6 @@ h2          { color:#333; margin-top:2.5rem; text-align:center; }
 /* ───── Tableau Viz Box ───── */
 .viz-wrap      { max-width:900px; margin:2rem auto; border:2px solid #991B1B22; border-radius:8px; padding:1rem; }
 .viz-caption   { font-size:.9rem; text-align:center; margin-top:.5rem; color:#555; }
+
+.giving-back li { margin-bottom:1.2rem; line-height:1.5; }
+.giving-back strong { color:#991B1B; }
